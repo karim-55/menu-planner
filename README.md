@@ -8,6 +8,10 @@ Objectif: Générer un menu de N jours à partir d'un catalogue de recettes et p
 
 ### Objectif
 - Faire evoluer le projet sur le principe de l'integration continue (une feature + tests associé)
+    Filtres supplémentaires
+        --min-fish, --max-meat: contrainte sur certains tags (ex: “poisson”, “viande”).
+        --exclude-ingredients: exclure certains ingrédients (allergènes).
+        --no-duplicates: éviter les doublons exacts de recettes dans la semaine.
 - Héberger le code sur votre repository : b3-infra-cx-nom-nom-nom
 
 #### Utilisation
