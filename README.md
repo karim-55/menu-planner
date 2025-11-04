@@ -6,6 +6,10 @@ Objectif: Générer un menu de N jours à partir d'un catalogue de recettes et p
 - Python 3.11+
 - `pip install -r requirements.txt`
 
+### Objectif
+- Faire evoluer le projet sur le principe de l'integration continue (une feature + tests associé)
+- Héberger le code sur votre repository : b3-infra-cx-nom-nom-nom
+
 #### Utilisation
 ```bash
 python -m mealmaker.cli --recipes data/recipes.sample.json --days 7 --min-vege 2 --max-time 30 --avg-budget 2.5 --output plan.json
